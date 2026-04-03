@@ -6,8 +6,8 @@ _G.AutoSkip = true
 _G.AutoRejoin = true
 
 -- [[ WEBHOOK SETTINGS ]]
-_G.SendWebhook = true -- Set to true to enable notifications
-_G.Webhook = "https://acc1controller.maksversku2008.workers.dev/" 
+_G.SendWebhook = false -- Set to true to enable notifications
+_G.Webhook = "" 
 
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
