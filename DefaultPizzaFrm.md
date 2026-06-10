@@ -1,21 +1,16 @@
--- [[ CONFIGURATION ]]
-_G.AutoPickups = true
-_G.AntiLag = false
-_G.ClaimRewards = true
-_G.AutoSkip = true
-_G.AutoRejoin = true
-
--- [[ WEBHOOK SETTINGS ]]
-_G.SendWebhook = false -- Set to true to enable notifications
-_G.Webhook = "" 
-
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
 TDS:Loadout("Assassin", "Trapper", "", "", "")
 TDS:Mode("Pizza Party")
+
+_G.AutoPickups = true
+_G.AntiLag = true
+_G.ClaimRewards = true
+
+local function Strategy()
+    TDS:Ready() -- This Ready is important 
 TDS:Place("Assassin", 4.35893, 0.99993, -37.14380)
 TDS:Place("Assassin", -1.57765, 0.99993, -36.95907)
-TDS:Ready()
 TDS:Place("Assassin", 4.17459, 1.03687, -34.92369)
 TDS:Place("Assassin", -1.30554, 1.03687, -34.79516)
 TDS:Upgrade(1)
@@ -38,13 +33,15 @@ TDS:Upgrade(1)
 TDS:Upgrade(4)
 TDS:Upgrade(4)
 TDS:GetWave()
-TDS:Sell(2, 15)
-TDS:Sell(1, 15)
-TDS:Sell(3, 15)
-TDS:Sell(4, 15)
-TDS:Sell(5, 15)
-TDS:Sell(7, 15)
-TDS:Sell(6, 15)
-TDS:Sell(9, 15)
-TDS:Sell(8, 15)
+TDS:SellAll(15)
+end
 
+task.spawn(function()
+    while true do
+        Strategy()
+        local result = TDS:WaitForMatchStatus()
+        TDS:ClearSessionData()
+        TDS:RestartGame()
+        task.wait(1.5)
+    end
+end)
