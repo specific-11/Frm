@@ -1,0 +1,247 @@
+--[[
+
+    MODE: FALLEN
+    MAP: SIMPLICITY
+    TOWERS REQUIRED: FARM, GATLING GUN, ACCELERATOR, ENGINEER & DJ BOOTH
+    TIMESCALE: 2X (8 Minute Game)
+    100% TRIUMPH RATE
+    0 MODIFIERS REQUIRED
+
+]]--
+
+--[[
+
+    REQUIREMENTS:
+    Auto Skip
+    Auto Gatling
+    Auto DJ Booth
+    Auto Rejoin (Win Strat)
+    Use this Private Server Code if you dont have VIP "16468445364573326030760862325611"
+
+]]
+
+_G.AutoPickups = true
+_G.AntiLag = true
+_G.ClaimRewards = true
+_G.AutoSkip = true
+_G.AutoReady = true
+
+local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
+
+TDS:Loadout("Farm", "Gatling Gun", "Accelerator", "Engineer", "DJ Booth")
+TDS:Mode("Fallen")
+TDS:GameInfo("Simplicity", {})
+
+TDS:Place("Engineer", -8.102895736694336, 45, -3.419257164001465)
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/avtryxz/autogutlin/refs/heads/main/autogutlin.lua"))()
+
+TDS:UnlockTimeScale()
+TDS:TimeScale(2)
+
+TDS:Upgrade(1)
+-- [ Wave 2 ] --
+TDS:Place("Engineer", -7.905660629272461, 45, -3.147101879119873)
+
+-- [ Wave 3 ] --
+TDS:Upgrade(2)
+TDS:Place("Engineer", -7.684562683105469, 45, -2.908917188644409)
+
+-- [ Wave 4 ] --
+TDS:Upgrade(3)
+
+-- [ Wave 6 ] --
+TDS:Place("Engineer", -7.613297939300537, 45, -3.511646270751953)
+TDS:Place("Engineer", -7.296339988708496, 45, -3.497049331665039)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 7 ] --
+TDS:Place("Farm", -0.9054087996482849, 45, 12.891273498535156)
+TDS:Upgrade(6)
+TDS:Place("Farm", -4.339688777923584, 45, 12.179545402526855)
+TDS:Upgrade(7)
+TDS:Place("Farm", -7.820690155029297, 45, 11.552976608276367)
+TDS:Upgrade(8)
+
+-- [ Wave 8 ] --
+TDS:Place("Farm", -11.316221237182617, 45, 10.993638038635254)
+TDS:Upgrade(9)
+TDS:Place("Farm", 2.856609344482422, 45, 13.273719787597656)
+TDS:Upgrade(10)
+TDS:Place("Farm", -14.622196197509766, 45, 9.582832336425781)
+TDS:Upgrade(11)
+
+TDS:Place("Gatling Gun", -2.3362014293670654, 45, 2.2297260761260986)
+
+-- [ Wave 11 ] --
+TDS:Place("Farm", -14.472481727600098, 45, 13.119670867919922)
+TDS:Upgrade(13)
+TDS:Place("Farm", -11.201948165893555, 45, 14.474370002746582)
+TDS:Upgrade(14)
+TDS:Place("Farm", -7.716143608093262, 45, 15.091432571411133)
+TDS:Place("Farm", -4.23201847076416, 45, 15.717907905578613)
+TDS:Upgrade(15)
+TDS:Upgrade(16)
+
+-- [ Wave 12 ] --
+TDS:Upgrade(10)
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 13 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+TDS:Upgrade(9)
+
+-- [ Wave 14 ] --
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(10)
+
+-- [ Wave 15 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(15)
+TDS:Upgrade(14)
+TDS:Upgrade(13)
+TDS:Upgrade(11)
+
+-- [ Wave 16 ] --
+TDS:Upgrade(9)
+TDS:Upgrade(8)
+TDS:Upgrade(7)
+TDS:Upgrade(6)
+TDS:Upgrade(12)
+
+-- [ Wave 17 ] --
+TDS:Upgrade(12)
+TDS:Upgrade(10)
+TDS:Place("DJ Booth", -3.2784359455108643, 45, -2.8710811138153076)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+
+-- [ Wave 18 ] --
+TDS:SetOption(17, "Track", "Red")
+TDS:Upgrade(10)
+
+-- [ Wave 19 ] --
+TDS:Upgrade(6)
+TDS:Upgrade(7)
+TDS:Upgrade(8)
+TDS:Upgrade(9)
+TDS:Upgrade(11)
+TDS:Upgrade(13)
+TDS:Upgrade(14)
+TDS:Upgrade(15)
+
+-- [ Wave 20 ] --
+TDS:Upgrade(16)
+TDS:Upgrade(12)
+
+-- [ Wave 21 ] --
+TDS:Upgrade(17)
+TDS:Upgrade(17)
+TDS:SetOption(17, "Track", "Green")
+
+-- [ Wave 22 ] --
+TDS:Place("Engineer", -8.989555358886719, 45, -3.405315399169922)
+TDS:Upgrade(18)
+TDS:Upgrade(18)
+
+-- [ Wave 23 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(18)
+
+-- [ Wave 24 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(18)
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+TDS:Upgrade(18)
+
+-- [ Wave 25 ] --
+TDS:Upgrade(1)
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+TDS:Upgrade(4)
+TDS:Upgrade(5)
+
+-- [ Wave 26 ] --
+TDS:Upgrade(1)
+
+-- [ Wave 27 ] --
+TDS:Upgrade(2)
+TDS:Upgrade(3)
+
+-- [ Wave 28 ] --
+TDS:Upgrade(4)
+
+-- [ Wave 29 ] --
+TDS:Upgrade(5)
+
+-- [ Wave 30 ] --
+TDS:Upgrade(18)
+TDS:Upgrade(12)
+TDS:Upgrade(12)
+
+-- [ Wave 31 ] --
+TDS:Upgrade(12)
+
+-- [ Wave 34 ] --
+TDS:Place("Accelerator", -8.319649696350098, 45, 0.42504215240478516)
+TDS:Place("Accelerator", -8.319649696350098, 45, 0.42504215240478516)
+TDS:Place("Accelerator", -8.319649696350098, 45, 0.42504215240478516)
+TDS:Place("Accelerator", -8.319649696350098, 45, 0.42504215240478516)
+TDS:Place("Accelerator", -8.319649696350098, 45, 0.42504215240478516)
+
+
+-- [ Wave 38 ] --
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(19)
+TDS:Upgrade(23)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:Upgrade(19)
+TDS:Upgrade(20)
+TDS:Upgrade(21)
+TDS:Upgrade(22)
+TDS:Upgrade(23)
+TDS:SetOption(17, "Track", "Red")
