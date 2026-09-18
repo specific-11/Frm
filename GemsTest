@@ -6,7 +6,7 @@ _G.AutoReady = true
 
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
-TDS:Loadout("Farm", "Electroshocker", "Kingpin", "Scout", "Juggernaut")
+TDS:Loadout("Farm", "Electroshocker", "EvolvedKingpin", "Scout", "EvolvedJuggernaut")
 
 TDS:Mode("Hardcore")
 TDS:GameInfo("Wretched Front", {})
@@ -91,8 +91,8 @@ TDS:Place("Electroshocker", 5.192135, 60, 13.535918)
         TDS:Upgrade(20)
     end
     
-TDS:Place("Juggernaut", 6.819697, 60, 22.372892)
-TDS:Place("Kingpin", 6.819697, 60, 22.372892)
+TDS:Place("EvolvedJuggernaut", 6.819697, 60, 22.372892)
+TDS:Place("EvolvedKingpin", 6.819697, 60, 22.372892)
 end
 
 task.spawn(function()
