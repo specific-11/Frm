@@ -6,7 +6,7 @@ _G.AutoReady = true
 
 local TDS = loadstring(game:HttpGet("https://raw.githubusercontent.com/raxs0420/test/refs/heads/main/library%20new/new%20ui%20test%20test.lua"))()
 
-TDS:Loadout("Farm", "Electroshocker", "EvolvedKingpin", "Scout", "EvolvedJuggernaut")
+TDS:Loadout("Farm", "Electroshocker", "EvolvedKingpin", "Crook Boss", "EvolvedJuggernaut")
 
 TDS:Mode("Hardcore")
 TDS:GameInfo("Wretched Front", {})
